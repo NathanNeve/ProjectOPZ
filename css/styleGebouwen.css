@@ -1,0 +1,84 @@
+/* imports en general reset */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hoofding */
+h1 {
+    font-family: 'Abel', sans-serif;
+    color: rgb(248,184,0);
+    font-size: 3rem;
+    padding-left: 2vw;
+}
+
+
+/* containter met afbeelding */
+.containter {
+    position: relative;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+}
+
+
+/* blauwe box met gebouwnummering */
+#nummerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33,121,152);
+    border-radius: 5px;
+    width: 20vw;
+    height: 10%;
+
+    position: absolute;
+    right: 10vw;
+    bottom: -1.5vh;
+}
+
+#nummering {
+    color: white;
+    font-size: 22px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+/* hoofdtext */
+#textbox {
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: rgb(33,121,152);
+}
+
+#textbox p {
+    padding: 8px 0;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+    }
+
+    .container, img {
+        width: 1000px;
+    }
+
+    #nummerbox {
+        width: 300px;
+        right: -50px;
+    }
+
+    h1 {
+        padding-left: 0;
+    }
+}
