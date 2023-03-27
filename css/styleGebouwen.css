@@ -9,7 +9,7 @@
 /* hoofding */
 h1 {
     font-family: 'Abel', sans-serif;
-    color: rgb(248,184,0);
+    color: var(--yellowOPZ);
     font-size: 3rem;
     padding-left: 2vw;
 }
@@ -31,7 +31,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(33,121,152);
+    background-color: var(--Blue);
     border-radius: 5px;
     width: 20vw;
     height: 10%;
@@ -55,7 +55,7 @@ img {
 }
 
 h2 {
-    color: rgb(33,121,152);
+    color: var(--Blue);
 }
 
 #textbox p {
