@@ -25,29 +25,6 @@ img {
     height: auto;
 }
 
-
-/* blauwe box met gebouwnummering */
-#nummerbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(33,121,152);
-    border-radius: 5px;
-    width: 20vw;
-    height: 10%;
-
-    position: absolute;
-    right: 10vw;
-    bottom: -1.5vh;
-}
-
-#nummering {
-    color: white;
-    font-size: 22px;
-    font-family: 'Abel', sans-serif;
-}
-
-
 /* hoofdtext */
 #textbox {
     font-family: 'Open Sans', sans-serif;
@@ -81,4 +58,9 @@ h2 {
     h1 {
         padding-left: 0;
     }
+}
+
+
+.slick-prev, .slick-next {
+
 }
