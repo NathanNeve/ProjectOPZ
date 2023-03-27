@@ -25,6 +25,8 @@ img {
     height: auto;
 }
 
+<<<<<<< HEAD
+=======
 
 /* blauwe box met gebouwnummering */
 #nummerbox {
@@ -48,6 +50,7 @@ img {
 }
 
 
+>>>>>>> 93553738e5edf7ce3e56477e885ed56a4532c99e
 /* hoofdtext */
 #textbox {
     font-family: 'Open Sans', sans-serif;
@@ -81,4 +84,9 @@ h2 {
     h1 {
         padding-left: 0;
     }
+}
+
+
+.slick-prev, .slick-next {
+
 }
