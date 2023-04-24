@@ -11,9 +11,15 @@ h1 {
     font-family: 'Abel', sans-serif;
     color: var(--yellowOPZ);
     font-size: 3rem;
-    padding-left: 2vw;
 }
 
+div, p {
+    background-color: white;
+}
+
+body {
+    margin: 0px 15px;
+}
 
 /* containter met afbeelding */
 .containter {
@@ -24,9 +30,6 @@ img {
     width: 100vw;
     height: auto;
 }
-
-<<<<<<< HEAD
-=======
 
 /* blauwe box met gebouwnummering */
 #nummerbox {
@@ -49,8 +52,6 @@ img {
     font-family: 'Abel', sans-serif;
 }
 
-
->>>>>>> 93553738e5edf7ce3e56477e885ed56a4532c99e
 /* hoofdtext */
 #textbox {
     font-family: 'Open Sans', sans-serif;
@@ -58,12 +59,15 @@ img {
 }
 
 h2 {
-    color: var(--Blue);
+    color: rgb(33,121,152);
+    margin: 5px 0px;
 }
 
-#textbox p {
-    padding: 8px 0;
+p {
+    margin-bottom: 10px;
 }
+
+
 
 @media screen and (min-width: 1200px) {
     body {
