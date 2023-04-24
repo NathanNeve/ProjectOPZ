@@ -21,6 +21,16 @@ body {
     margin: 0px 15px;
 }
 
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox p {
+    padding-top: 10px;
+    color: var(--Blue);
+}
+
 /* containter met afbeelding */
 .containter {
     position: relative;
