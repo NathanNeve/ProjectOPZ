@@ -87,6 +87,11 @@ span {
     color: #217998;
 }
 
+.bedekking {
+    padding-bottom: 500px;
+    padding-left: 20px;
+    background-color: #fff;
+}
 #end {
     height: 80vh;
     width: 100vw;
